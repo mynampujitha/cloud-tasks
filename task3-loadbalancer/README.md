@@ -15,4 +15,5 @@ Distribute traffic across two Apache servers.
 
 3. Test in browser:
    - Open the ALB DNS name.
+   - Open browser → http://my-web-alb-916533869.ap-south-1.elb.amazonaws.com
    - Refresh the page → should alternate between **Server 1** and **Server 2**.
